@@ -1,0 +1,11 @@
+//while is used when the number of iterations not known and depends on the condition
+
+var count=0;
+while(count<=10)
+{
+console.log(count);
+count++;
+var i=0;
+i=i+count;
+}
+console.log("Sum of i is ", i);
