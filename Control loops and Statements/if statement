@@ -1,1 +1,9 @@
-
+var person1={"name": "Bhargav", "age": 30}
+var person2={"name": "Chaitanya","age": 12}
+//checking both persons are more than 18 years old to vote
+if(person1.age>=18)
+console.log("Bhargav is " +person1.age+ " and is eligible to vote");
+if(person2.age>=18)
+console.log("Chaitanya is " +person2.age+ " and is eligible to vote");
+else
+console.log("Chaitanya is minor and is not eligible for voting");
