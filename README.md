@@ -2,7 +2,7 @@ My Javascript Learning
 --------------------------
 This repository is created to update my learnings in Javascript.
 
-Challenge(1) - Basics using Console
+Learning(1) - Basics using Console
 -------------------
 
 Note: Do these exercises in the Console (right-click > Inspect > Console)
