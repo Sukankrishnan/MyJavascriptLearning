@@ -1,7 +1,7 @@
 Interpolation
 -
-It is a cool feature that replace string concatenation. A new feature in ES6. It can make multi-line strings without an escape character.
+It is a cool feature that replaces string concatenation. A new feature in ES6. It can make multi-line strings without an escape character. IT should be declared within back-ticks(`) not single quotes.
 
 Eg: let fname="Test";
 
-console.log('My name is ${fname}');
+console.log(`My name is ${fname}`);
