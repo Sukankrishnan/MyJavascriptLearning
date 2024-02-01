@@ -1,3 +1,6 @@
+parseInt() function
+---
+
 parseInt is used to parse a string element and returns as an integer.
 
 Let us see the examples:
@@ -54,4 +57,22 @@ Use parseInt but adding the numbers by getting the value of two numbers. Here al
 
         var total3=parseInt(number1.value)+parseInt(number2.value);
         console.log(`Total of two numbers is ${total3}`);
+
+Result
+        Total of two numbers is NaN
+
+
+Example 4
+---
+Converting string to integer using parseInt() function and adding the two integers
+
+        //converting string to integer and then add the numbers
+        
+        var total4=parseInt(number1)+parseInt(number2);
+        
+        console.log(`Total of two numbers is ${total4}`);
+
+The result would be the expected one
+
+        Total of two numbers is 30
         
