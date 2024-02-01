@@ -1,10 +1,52 @@
 parseInt() function
 ---
 
-parseInt is used to parse a string element and returns as an integer.
+parseInt() function in javascript is used to parse a string element and returns as an integer. It takes two parameters:
+
+**String**: The string to be converted to an integer.
+
+**Radix (optional)**: An integer between 2 and 36 that represents the base of the numeral system used in the string. This is an optional parameter, and if not specified, JavaScript assumes the following:
+
+•	If the string begins with "0x" or "0X", it is parsed as a hexadecimal number. (Example is given at last)
+
+•	Otherwise, it is parsed as a decimal number.
+
 
 Let us see the examples:
 
+Radix:
+--
+
+var num3="0x12345";
+
+var num4="0X12345";
+
+var num5="0123";
+
+var num6="0012345";
+
+console.log(parseInt(num3));
+
+console.log(parseInt(num4));
+
+console.log(parseInt(num5));
+
+console.log(parseInt(num6));
+
+
+The result will be 
+
+74565
+
+74565
+
+123
+
+12345
+
+
+String:
+---
 I initialize two variables as String.
 
         var number1="10";
