@@ -17,32 +17,32 @@ Let us see the examples:
 Radix:
 --
 
-var num3="0x12345";
-
-var num4="0X12345";
-
-var num5="0123";
-
-var num6="0012345";
-
-console.log(parseInt(num3));
-
-console.log(parseInt(num4));
-
-console.log(parseInt(num5));
-
-console.log(parseInt(num6));
+        var num3="0x12345";
+        
+        var num4="0X12345";
+        
+        var num5="0123";
+        
+        var num6="0012345";
+        
+        console.log(parseInt(num3));
+        
+        console.log(parseInt(num4));
+        
+        console.log(parseInt(num5));
+        
+        console.log(parseInt(num6));
 
 
 The result will be 
 
-74565
-
-74565
-
-123
-
-12345
+        74565
+        
+        74565
+        
+        123
+        
+        12345
 
 
 String:
