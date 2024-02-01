@@ -26,9 +26,9 @@ When I try to add, it concatenates the values
         
         var total1=number1+number2;
 
-console.log(`Total of two numbers is ${total1}`);
+        console.log(`Total of two numbers is ${total1}`);
 
 
 Result
-    Total of two numbers is 1020
-  Total of two numbers is 1020
+        Total of two numbers is 1020
+        
