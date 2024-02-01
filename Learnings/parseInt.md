@@ -37,7 +37,7 @@ Result
 
 Example 2
 --
-When I try to add of two numbers by getting the values, the output would be NaN. Because value is undefined and it is a string.
+When I try to add of two numbers by getting the values, the output would be NaN. Because 'value' is undefined and it is a string.
 
         var total2=number1.value+number2.value;
         
@@ -46,4 +46,12 @@ When I try to add of two numbers by getting the values, the output would be NaN.
 Result
 
         Total of two numbers is NaN
+
+
+Example 3
+--
+Use parseInt but adding the numbers by getting the value of two numbers. Here also the output would be NaN. Because 'value' is undefined.
+
+        var total3=parseInt(number1.value)+parseInt(number2.value);
+        console.log(`Total of two numbers is ${total3}`);
         
