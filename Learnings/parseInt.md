@@ -20,6 +20,8 @@ The result of the above code is
         Type of number2 is string
         
 
+Example 1
+--
 When I try to add, it concatenates the values
 
         //add two strings - concatenation
@@ -30,5 +32,18 @@ When I try to add, it concatenates the values
 
 
 Result
+
         Total of two numbers is 1020
+
+Example 2
+--
+When I try to add of two numbers by getting the values, the output would be NaN. Because value is undefined and it is a string.
+
+        var total2=number1.value+number2.value;
+        
+        console.log(`Total of two numbers is ${total2}`);
+
+Result
+
+        Total of two numbers is NaN
         
