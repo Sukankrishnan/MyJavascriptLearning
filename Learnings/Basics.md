@@ -12,3 +12,6 @@ type data and then hyphen. It automatically creates open ad close tag.
 Eg: abc-
 
 output will be <abc-></abc->
+
+netninja
+codesandbox.io
