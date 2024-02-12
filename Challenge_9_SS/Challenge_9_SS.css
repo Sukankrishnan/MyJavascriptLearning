@@ -27,3 +27,37 @@
     font-size: large;
     font-weight: bold;
 }
+
+.gamingClass, .musicClass, .techClass{
+    background-color: rgb(230,230,230);
+    border: 10px;
+    border-radius: 8px;
+    padding: 15px 40px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 2%;
+    }   
+
+.is-toggled{
+    transition: background-color 0.3s ease;
+    background-color: black;
+    color: white;
+    border: 10px;
+    border-radius: 8px;
+    padding: 15px 40px;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 2%;
+    }
+
+    .calculate{
+        background-color: green;
+        color: white;
+    }
+
+    .errorMessage{
+        color: red;
+    }
+
+
