@@ -21,22 +21,40 @@ Two pre-bundle function calls**
 
 Example
     describe("Test authentication", function()
+    
     {
+    
     before( ()=>{
+    
       // logic runs once before all tests
+      
     });
+    
     beforeEach( ()=>{
+    
       // logic runs once before each test
+      
     });
+    
     it("Test to add numbers", function()
+    
       {
+      
         //test logic here
+        
       }
+      
     afterEach( ()=>{
+    
       // logic runs once after each test
+      
     });
+    
     after( ()=>{
+    
       // logic runs once after all tests
+      
     });
+    
     })
 
