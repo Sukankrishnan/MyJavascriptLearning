@@ -6,11 +6,17 @@ Two pre-bundle function calls**
 
 **Example:**
     describe("Test authentication", function()
+    
     {
+    
     it("Test to add numbers", function()
+    
       {
+      
         //test logic here
+        
       }
+      
     })
 
 **Mocha hooks** - These are functions that run before or after the test. It helps to set up the environment and test suites
