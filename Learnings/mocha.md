@@ -13,7 +13,7 @@ Example:
       }
     })
 
-Mocha hooks - These are functions that runs before or after test
+Mocha hooks - These are functions that runs before or after test. It helps to setup environment and test suites
   - before()
   - beforeEach()
   - after()
