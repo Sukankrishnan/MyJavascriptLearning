@@ -1,4 +1,4 @@
-Mocha is a javascript test framework that runs on Node.js. It is simple, flexible, and fun.
+Mocha is a JavaScript test framework that runs on Node.js. It is simple, flexible, and fun.
 
 Two pre-bundle function calls
   - describe() --> group into a test suite
@@ -12,5 +12,11 @@ Example:
         //test logic here
       }
     })
+
+Mocha hooks - These are functions that runs before or after test
+  - before()
+  - beforeEach()
+  - after()
+  - afterEach()
     
 
