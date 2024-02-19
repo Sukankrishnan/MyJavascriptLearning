@@ -17,7 +17,7 @@ Two pre-bundle function calls**
         
       }
       
-    })
+    });
 
 **Mocha hooks** - These are functions that run before or after the test. It helps to set up the environment and test suites
   - before()
@@ -62,5 +62,5 @@ Example
       
     });
     
-    })
+    });
 
