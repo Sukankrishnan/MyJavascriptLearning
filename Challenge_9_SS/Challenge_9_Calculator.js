@@ -13,5 +13,6 @@ function calculate(){
 }
 
 function clear(){
-    displayResult.value=" ";
+    displayResult.value=' ';
+    
 }
